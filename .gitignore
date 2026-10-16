@@ -1,0 +1,7 @@
+/third_party/
+/results/rerun_*/
+__pycache__/
+*.pyc
+*.tmp
+.DS_Store
+Thumbs.db

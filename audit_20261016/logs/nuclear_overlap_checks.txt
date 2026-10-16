@@ -1,0 +1,35 @@
+NUCLEAR_OVERLAP_AUDIT Julia=1.12.7 seed=2026101619 BLAS_threads=1
+Target: ||R_U'R_V|| <= ||U'V||_1; R_U=u tensor c*(Mv)-v tensor c*(Mu)
+random_1,d=3,gram_norm=0.727221652111,nuclear_bound=1.88185547203,residual=3.833e-16,noncommutation=2.463e-01
+random_2,d=3,gram_norm=0.638608975296,nuclear_bound=1.5605270285,residual=5.161e-16,noncommutation=5.836e-01
+random_3,d=3,gram_norm=0.507437463459,nuclear_bound=1.28058743355,residual=8.440e-16,noncommutation=6.027e-01
+random_4,d=3,gram_norm=0.820104411969,nuclear_bound=1.54717252842,residual=5.003e-16,noncommutation=5.842e-01
+random_5,d=3,gram_norm=1.391717119,nuclear_bound=1.79741795743,residual=6.520e-16,noncommutation=3.615e-01
+random_6,d=3,gram_norm=0.0925113967721,nuclear_bound=1.05790407159,residual=4.145e-16,noncommutation=8.750e-01
+random_1,d=4,gram_norm=0.369982867381,nuclear_bound=1.02026086722,residual=7.268e-16,noncommutation=5.252e-01
+random_2,d=4,gram_norm=0.0926818410687,nuclear_bound=0.857501124779,residual=3.621e-16,noncommutation=3.266e-01
+random_3,d=4,gram_norm=0.422312809336,nuclear_bound=1.19242099978,residual=6.887e-16,noncommutation=7.715e-01
+random_4,d=4,gram_norm=0.788581400338,nuclear_bound=1.87628257095,residual=5.079e-16,noncommutation=5.709e-01
+random_5,d=4,gram_norm=0.164674530558,nuclear_bound=1.2097619086,residual=4.489e-16,noncommutation=3.631e-01
+random_6,d=4,gram_norm=0.0869707093784,nuclear_bound=1.26684571858,residual=4.544e-16,noncommutation=1.303e+00
+random_1,d=5,gram_norm=0.26939623943,nuclear_bound=1.07339250085,residual=8.245e-16,noncommutation=6.483e-01
+random_2,d=5,gram_norm=0.219782657417,nuclear_bound=0.845860025785,residual=9.427e-16,noncommutation=1.257e+00
+random_3,d=5,gram_norm=0.517780615903,nuclear_bound=1.18179803512,residual=9.869e-16,noncommutation=5.532e-01
+random_4,d=5,gram_norm=0.465590779864,nuclear_bound=1.2739324608,residual=8.668e-16,noncommutation=1.152e+00
+random_5,d=5,gram_norm=0.448791904434,nuclear_bound=0.972339034887,residual=1.076e-15,noncommutation=8.997e-01
+random_6,d=5,gram_norm=0.174123252637,nuclear_bound=0.929876063708,residual=6.440e-16,noncommutation=9.368e-01
+random_1,d=6,gram_norm=0.151469811115,nuclear_bound=0.980819293965,residual=8.889e-16,noncommutation=4.611e-01
+random_2,d=6,gram_norm=0.266034280476,nuclear_bound=1.30254199906,residual=1.027e-15,noncommutation=7.711e-01
+random_3,d=6,gram_norm=0.657305938391,nuclear_bound=1.20571546774,residual=1.588e-15,noncommutation=3.760e-01
+random_4,d=6,gram_norm=0.325054622694,nuclear_bound=0.972507356175,residual=1.414e-15,noncommutation=5.731e-01
+random_5,d=6,gram_norm=0.356925791099,nuclear_bound=1.11011964034,residual=9.220e-16,noncommutation=7.116e-01
+random_6,d=6,gram_norm=0.150163262339,nuclear_bound=0.783910409055,residual=1.099e-15,noncommutation=1.258e+00
+coincident_saturates,d=3,gram_norm=2,nuclear_bound=2,residual=9.570e-16,noncommutation=0.000e+00
+coincident_saturates,d=6,gram_norm=2,nuclear_bound=2,residual=2.292e-15,noncommutation=0.000e+00
+orthogonal_zero,d=4,gram_norm=1.00271607641e-16,nuclear_bound=5.50259505233e-16,residual=5.060e-16,noncommutation=7.211e-01
+orthogonal_zero,d=6,gram_norm=1.43077459536e-16,nuclear_bound=3.82626923012e-16,residual=1.163e-15,noncommutation=1.040e+00
+one_direction_intersection,d=3,gram_norm=1,nuclear_bound=1,residual=5.061e-16,noncommutation=0.000e+00
+same_plane_complex_phase,d=4,gram_norm=0.557231366401,nuclear_bound=2,residual=4.279e-16,noncommutation=7.645e-01
+Test Summary:              | Pass  Total  Time
+Nuclear overlap Gram bound |  156    156  4.1s
+CASES=30 SUMMARY=Dict("max_residual" => 2.291664851916576e-15, "max_commutator" => 1.3028883659906452, "max_norm_over_bound" => 1.0000000000000007)

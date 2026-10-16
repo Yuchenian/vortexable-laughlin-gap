@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite a commit and state: AI-assisted draft; human verification incomplete."
+title: "Vortexable Laughlin gap: AI-assisted transfer-bound research draft"
+type: software
+authors:
+  - name: "vortexable-laughlin-gap contributors"
+repository-code: "https://github.com/Yuchenian/vortexable-laughlin-gap"
+url: "https://github.com/Yuchenian/vortexable-laughlin-gap"
+date-released: "2026-10-16"
+license: MIT

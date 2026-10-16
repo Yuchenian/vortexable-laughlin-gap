@@ -1,0 +1,35 @@
+Julia 1.12.7; Windows; BLAS=1; seed=2026101607; standard libraries only; --startup-file=no --history-file=no --project=.
+Final independent: 469/469; 51 float cases; 27.8s. Original channel: 102/102. Original analytic: 53/53.
+
+Algorithm : SHA256
+Hash      : D0D597FDE43AB825660CCF12348EDB699162E3AB42D4B1E2C11E416172F0D912
+Path      : <project-root>\Project.toml
+
+Algorithm : SHA256
+Hash      : 0CF5DE1A8C02C1EBF09B898DBDBBD2235646B7B9D19936AF952D89BB7E06CFE2
+Path      : <project-root>\independent_channel_audit.jl
+
+Algorithm : SHA256
+Hash      : 7D03BE4BDFD418BFA87EAFC656A1855CA43564E9B2BC0612A2DF1C7F8630F83E
+Path      : <project-root>\channel_transfer_checks.jl
+
+Algorithm : SHA256
+Hash      : 1290CE0510DAE1ACCC34F34ADE36D8E0F10A84F7E7577376C151030327732B6C
+Path      : <project-root>\analytic_bound_checks.jl
+
+Algorithm : SHA256
+Hash      : C6F4A1AE5EDAD06BB78C7D0230D1EB61DACC4E6D286F5594F09BBFA2992B85A5
+Path      : <project-root>\audit_20261016\independent_channel_audit_v1.jl
+
+Algorithm : SHA256
+Hash      : 15CFB23B6FA8BD496B3C19A70EFB11CB29D40CA9ED7E44108C75C00D40B032AF
+Path      : <project-root>\run_numerical_audit.ps1
+
+
+Supplement: nuclear_overlap_checks.jl; seed=2026101619; 30 cases; 156/156; 4.1s; max residual=2.291664851916576e-15.
+
+Algorithm : SHA256
+Hash      : 219AF359C6C8044F6FCC11BE5565C16E97E945E3EB7DC7EE7FEEE2EC55BEF1DA
+Path      : <project-root>\nuclear_overlap_checks.jl
+
+

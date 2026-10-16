@@ -1,0 +1,65 @@
+Plane nuclear-overlap integral (floating diagnostic): 12.310898278977326
+Rigorous analytic tail formula beyond L=60: 2.39555e-11 (floating evaluation)
+Exact usable constant C=14; analytic upper 8sqrt(3)=13.856406460551018
+Revised Schur and finite-Slater analytic audit: Error During Test at <project-root>\analytic_extension_checks.jl:49
+  Test threw exception
+  Expression: simpson((s->begin
+                #= <project-root>\analytic_extension_checks.jl:49 =#
+                2.0
+            end), 0.0, 1.0, 2) == 2
+  ArgumentError: reducing over an empty collection is not allowed; consider supplying `init` to the reducer
+  Stacktrace:
+    [1] _empty_reduce_error()
+      @ Base .\reduce.jl:312
+    [2] mapreduce_empty(f::Function, op::Base.BottomRF{typeof(Base.add_sum)}, T::Type)
+      @ Base .\reduce.jl:314
+    [3] reduce_empty(op::Base.MappingRF{var"#simpson##2#simpson##3"{var"#8#9", Float64, Float64}, Base.BottomRF{typeof(Base.add_sum)}}, ::Type{Int64})
+      @ Base .\reduce.jl:351
+    [4] reduce_empty_iter
+      @ .\reduce.jl:374 [inlined]
+    [5] reduce_empty_iter
+      @ .\reduce.jl:373 [inlined]
+    [6] foldl_impl
+      @ .\reduce.jl:41 [inlined]
+    [7] mapfoldl_impl
+      @ .\reduce.jl:36 [inlined]
+    [8] mapfoldl
+      @ .\reduce.jl:167 [inlined]
+    [9] mapreduce
+      @ .\reduce.jl:300 [inlined]
+   [10] sum
+      @ .\reduce.jl:525 [inlined]
+   [11] sum
+      @ .\reduce.jl:554 [inlined]
+   [12] simpson(f::var"#8#9", a::Float64, b::Float64, n::Int64)
+      @ Main <project-root>\analytic_extension_checks.jl:11
+   [13] top-level scope
+      @ <project-root>\analytic_extension_checks.jl:35
+   [14] macro expansion
+      @ <julia-runtime>\share\julia\stdlib\v1.12\Test\src\Test.jl:1777 [inlined]
+   [15] macro expansion
+      @ <project-root>\analytic_extension_checks.jl:49 [inlined]
+   [16] macro expansion
+      @ <julia-runtime>\share\julia\stdlib\v1.12\Test\src\Test.jl:677 [inlined]
+Revised Schur and finite-Slater analytic audit: Test Failed at <project-root>\analytic_extension_checks.jl:62
+  Expression: Cslater == q(1968)
+   Evaluated: 336//1 == 1968//1
+
+Stacktrace:
+ [1] top-level scope
+   @ <project-root>\analytic_extension_checks.jl:35
+ [2] macro expansion
+   @ <julia-runtime>\share\julia\stdlib\v1.12\Test\src\Test.jl:1777 [inlined]
+ [3] macro expansion
+   @ <project-root>\analytic_extension_checks.jl:62 [inlined]
+ [4] macro expansion
+   @ <julia-runtime>\share\julia\stdlib\v1.12\Test\src\Test.jl:680 [inlined]
+Rank-two same-LLL family p=(|0 wedge 1>+|2 wedge 3>)/sqrt(2):
+  beta=(7+2sqrt(11))/16 = 0.852078098794425
+  explicit rational Schur bound (deliberately loose) C=336//1
+  Reference full-Fock gap for this new pair operator: NOT ESTABLISHED.
+Test Summary:                                  | Pass  Fail  Error  Total  Time
+Revised Schur and finite-Slater analytic audit | 1008     1      1   1010  3.1s
+RNG of the outermost testset: Random.Xoshiro(0x17b217f7af929506, 0x6982538a7bc0544d, 0xc258f9aa6dc4d14e, 0xd72ad0df50e23870, 0x0221a9067ddb3383)
+ERROR: LoadError: Some tests did not pass: 1008 passed, 1 failed, 1 errored, 0 broken.
+in expression starting at <project-root>\analytic_extension_checks.jl:34
