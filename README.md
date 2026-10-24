@@ -1,9 +1,8 @@
 # Vortexable Laughlin gap: transfer bounds and examples
 
-> **AI-assisted research draft. Human verification and independent peer review are incomplete.**
-> The new proofs and constants in this repository are provisional claims. Passing checks is not a proof of a thermodynamic gap.
+> **Review update — 2026-10-24.** Yuchen Liu reports personally checking the main conclusions and calculations and finding no obvious errors, in his own judgment. A further internal recheck and all 1830 Julia checks passed. See [review status](HUMAN_REVIEW.md) and the [recheck record](RECHECK_20261024.md).
 >
-> **人工逐项检查与独立同行评审尚未完成。** 本项目公开推导、检查程序和失败证据，供研究者审查；请勿将其表述为已获独立验证的定理。
+> **核验状态更新**：作者已亲自检查主要结论和计算结果，个人判断未发现明显错误；本项目又完成了一轮解析与计算复核。这不代表外部同行评审。
 
 [中文科普文章（无代码）](ZHIHU_ARTICLE.md) · [Review status](HUMAN_REVIEW.md) · [Revised proof](TRANSFER_THEOREM_REVISED.md) · [Examples](EXAMPLES_AND_BOUNDS.md)
 
@@ -11,7 +10,7 @@ This project studies how a reference fermionic Laughlin V1 spectral inequality c
 
 The reference input is Gao's [arXiv:2610.12700v1](https://arxiv.org/abs/2610.12700v1), with conservative gap 1/5 in pair-projector units. The planar statement concerns the complete, untruncated plane and every finite particle sector; the spherical statement requires sufficiently large flux with a threshold independent of particle number. **No finite-torus reference theorem is assumed.** We reran the author's exact certificate verifier; we did not independently formalize or reprove the external paper.
 
-## Main draft claims
+## Main results
 
 For a bounded invertible one-particle filter, the channel estimate is
 
@@ -19,17 +18,19 @@ $$
 H_M^2\geq[\gamma_0-C\delta-\beta\delta^2]H_M.
 $$
 
-Here delta measures filter loss, beta is the two-body frame bound, and C controls integrated local pair overlap. For the normalized plane and sphere V1 frames the draft derives C ≤ 8√3 < 14 and beta=1. For scalar deformations with a positive Gram lower bound, a weighted pair-frame lower bound kappa then gives
+Here delta measures filter loss, beta is the two-body frame bound, and C controls integrated local pair overlap. For the normalized plane and sphere V1 frames the coherent-pair calculation gives C ≤ 8√3 < 14 and beta=1. For scalar deformations with a positive Gram lower bound, a weighted pair-frame lower bound kappa then gives
 
 $$
 \Delta_f\geq\frac{\kappa}{g_-^2}
-\left[\frac15-14\delta-\delta^2\right],
-\qquad \delta=1-\frac{g_-}{g_+}.
+\left[\frac15-14d-d^2\right],
+\qquad d=1-\frac{g_-}{g_+}.
 $$
 
-These bounds concern the entire zero-mode space and a specified derivative-contact parent interaction. All entries below are subject to the pending proof review.
+Here the actual filter loss satisfies $\delta_M\leq d$; conservative Gram bounds need not saturate this inequality.
 
-| Example | Draft positive lower bound | Scope |
+These bounds concern the entire zero-mode space and the specified derivative-contact parent interaction, under the hypotheses in the revised proof.
+
+| Example | Positive lower bound | Scope |
 |---|---:|---|
 | Weak first-harmonic scalar deformation | 0.139077… | Complete plane |
 | Stronger second-harmonic scalar deformation | 0.043092… | Complete plane |
@@ -44,6 +45,7 @@ No experimental Coulomb gap, universal C=1 theorem, finite-torus degeneracy, or 
 | File | Purpose |
 |---|---|
 | [ZHIHU_ARTICLE.md](ZHIHU_ARTICLE.md) | Chinese explanation, including AC bands, chiral TBG, TMD motivation, and references |
+| [RECHECK_20261024.md](RECHECK_20261024.md) | Follow-up analytic review, fresh checks, and exact arithmetic |
 | [AUDIT_REPORT.md](AUDIT_REPORT.md) | Claims, checks, corrections, and limitations |
 | [TRANSFER_THEOREM_REVISED.md](TRANSFER_THEOREM_REVISED.md) | Hypotheses, channel proof, normalization, constants, and domains |
 | [PHYSICAL_EXTENSIONS.md](PHYSICAL_EXTENSIONS.md) | Actual contact interaction, nodal weights, orbital embeddings, and geometry |
@@ -84,6 +86,6 @@ Omit that switch to also download, hash-check, and run the reference verifier. T
 
 ## Public edition and license
 
-The public edition removes local machine paths, adds review warnings, and provides portable runners. Numerical implementations are copied byte for byte. [PUBLICATION_PROVENANCE.json](PUBLICATION_PROVENANCE.json) maps original and published hashes; [PUBLICATION_NOTES.md](PUBLICATION_NOTES.md) explains the archive.
+The public edition removes local machine paths, records the review status, and provides portable runners. Numerical implementations are copied byte for byte. [PUBLICATION_PROVENANCE.json](PUBLICATION_PROVENANCE.json) maps original and published hashes; [PUBLICATION_NOTES.md](PUBLICATION_NOTES.md) explains the archive.
 
-Original repository material is released under the [MIT License](LICENSE). External papers, data and software retain their own rights and licenses. If citing this work, include the commit and its **AI-assisted, human-verification-incomplete** status. Corrections and counterexamples are welcome through GitHub issues.
+Original repository material is released under the [MIT License](LICENSE). External papers, data and software retain their own rights and licenses. If citing this work, include the commit so that the mathematical statements and recorded checks can be identified precisely. Corrections and counterexamples are welcome through GitHub issues.

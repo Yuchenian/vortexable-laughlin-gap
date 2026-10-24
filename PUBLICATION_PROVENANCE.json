@@ -2,80 +2,106 @@
   {
     "path": "ANALYTIC_AUDIT.md",
     "source_sha256": "55b37f6dbca476e9bd37f96acea3bf501013059231404a0ba7424881573b8e70",
-    "public_sha256": "f2756d9e62a5bfa893780f62b0601920d43b57138a93bd15618f06b26896f576",
-    "byte_identical": false
+    "public_sha256": "73eb71c9b78aeb00e78d83a0a3bb4e75c993886563636731aa28f92e0f7ceb35",
+    "byte_identical": false,
+    "public_sha256_before_20261024": "f2756d9e62a5bfa893780f62b0601920d43b57138a93bd15618f06b26896f576",
+    "public_edit_20261024": "Review-status update; revised theorem also clarifies conservative loss bound."
   },
   {
     "path": "AUDIT_CHECKLIST.md",
     "source_sha256": "55458f71680d1ae31400d7116fb7c2018370b4d5c0b743e49d9f0bbf69e4504a",
-    "public_sha256": "64c995f51790498680c4e6a504b8335ae9b849543521bf6ee664dd734a9fb0ee",
-    "byte_identical": false
+    "public_sha256": "f4030dd9e78d9ef4aa7bd4e111dcbb07ffd7fff7499b3850b3fade5cc4140469",
+    "byte_identical": false,
+    "public_sha256_before_20261024": "64c995f51790498680c4e6a504b8335ae9b849543521bf6ee664dd734a9fb0ee",
+    "public_edit_20261024": "Review-status update; revised theorem also clarifies conservative loss bound."
   },
   {
     "path": "AUDIT_REPORT.md",
     "source_sha256": "7cf77c5eb07d73129288044fe695f337d23515c70bd324f36f2be4e3c69345da",
-    "public_sha256": "603b65dd9fe5e795ea71ee769c2a9aac289a2fdb8b261330827ef5f6dd12df97",
-    "byte_identical": false
+    "public_sha256": "ee80da524a6f27cacb72788d7304a39d8977546eaceb63b8ef82663a752032d2",
+    "byte_identical": false,
+    "public_sha256_before_20261024": "603b65dd9fe5e795ea71ee769c2a9aac289a2fdb8b261330827ef5f6dd12df97",
+    "public_edit_20261024": "Review-status update; revised theorem also clarifies conservative loss bound."
   },
   {
     "path": "CHANGELOG_20261016.md",
     "source_sha256": "60b9bdaa3761f65c76788807b5e8200e993834bf930bb9801205596c373b7252",
-    "public_sha256": "598eb2aa6dd8363130cb6e31e6fb92a3b3b15c9fc9485879a190f5682f970582",
-    "byte_identical": false
+    "public_sha256": "cd11a82a82aa5d864ab87bb9549fa230bdf0777e1af1d9d43fdd66e784d341f9",
+    "byte_identical": false,
+    "public_sha256_before_20261024": "598eb2aa6dd8363130cb6e31e6fb92a3b3b15c9fc9485879a190f5682f970582",
+    "public_edit_20261024": "Review-status update; revised theorem also clarifies conservative loss bound."
   },
   {
     "path": "EXAMPLES_AND_BOUNDS.md",
     "source_sha256": "3f98be205e0b255e4b74dc537a6d431aebe0faf0d936ebdb4162aee04293e2c1",
-    "public_sha256": "d5c519960eb73d675cf0100673656bab710e953c60e51f5611108e4d3dd45720",
-    "byte_identical": false
+    "public_sha256": "4f4e977dd7e7902539739dba26d44133e495fda3fdf844ebc2f8cf6838b5b9c4",
+    "byte_identical": false,
+    "public_sha256_before_20261024": "d5c519960eb73d675cf0100673656bab710e953c60e51f5611108e4d3dd45720",
+    "public_edit_20261024": "Review-status update; revised theorem also clarifies conservative loss bound."
   },
   {
     "path": "FINAL_STATUS.md",
     "source_sha256": "eee98f48136dc1aabee3d7877dc0b5bebeadf82df87cff8dcdfcbfaf0bc3f888",
-    "public_sha256": "789606099b60f49420d333ac46989994340bc0f3918988c269cf8404d807b24c",
-    "byte_identical": false
+    "public_sha256": "474df0af46bb1af78f6b0940fb750a0ca90349cb0f7cdb46a335289ef63f2455",
+    "byte_identical": false,
+    "public_sha256_before_20261024": "789606099b60f49420d333ac46989994340bc0f3918988c269cf8404d807b24c",
+    "public_edit_20261024": "Review-status update; revised theorem also clarifies conservative loss bound."
   },
   {
     "path": "GENERALIZATION_MAP.md",
     "source_sha256": "911ed50e83f269f82a6567d0e21d6619e78c6b04d9339bc387792d7d498313ad",
-    "public_sha256": "6b98505c49025e021c8ab03836c0dc37027ea2f56bed8f1216c17f11023564c3",
-    "byte_identical": false
+    "public_sha256": "78ca30ec4179cdefc38e3c5a26556af8a4a950f3daa516cf9a045880700cf70c",
+    "byte_identical": false,
+    "public_sha256_before_20261024": "6b98505c49025e021c8ab03836c0dc37027ea2f56bed8f1216c17f11023564c3",
+    "public_edit_20261024": "Review-status update; revised theorem also clarifies conservative loss bound."
   },
   {
     "path": "LITERATURE_AUDIT.md",
     "source_sha256": "3c2d9de7b6bc504c51914fa3d1e075f99338b04a3d274bdb01a25f5450ea6972",
-    "public_sha256": "c9d16207b21d18c65d414fc84d7cd17f9fda154d9632eaa980a80c7c6e360d56",
-    "byte_identical": false
+    "public_sha256": "740efcdc048abe63518341cd6c4028929b9f35b9b8ab8c0f43177be25553411e",
+    "byte_identical": false,
+    "public_sha256_before_20261024": "c9d16207b21d18c65d414fc84d7cd17f9fda154d9632eaa980a80c7c6e360d56",
+    "public_edit_20261024": "Review-status update; revised theorem also clarifies conservative loss bound."
   },
   {
     "path": "NUMERICAL_AUDIT.md",
     "source_sha256": "160e2af322c23661e2f2de9b7cc7d756a90aa4036dcb8977f340c7b8abcfd1fa",
-    "public_sha256": "358b16e8a477e352367e59031e90d63558ef375af6fb754a98f72f3cfe7016b9",
-    "byte_identical": false
+    "public_sha256": "114c6e5c882f431d20aaa5d318d6c480a56287844df5711f7e96c555e17d2bb4",
+    "byte_identical": false,
+    "public_sha256_before_20261024": "358b16e8a477e352367e59031e90d63558ef375af6fb754a98f72f3cfe7016b9",
+    "public_edit_20261024": "Review-status update; revised theorem also clarifies conservative loss bound."
   },
   {
     "path": "PHYSICAL_EXTENSIONS.md",
     "source_sha256": "2ca05fd9d63a1d99f016258ef6d5e1844f510c6f85d9ef9a258cd827a307c9e6",
-    "public_sha256": "d3fd8d66c05e2f51aba4b4bdc1daa777107f6833d76966262f73b759fa3b2f10",
-    "byte_identical": false
+    "public_sha256": "938842248ce777b8b0e84d8a6676698dc296f876bde35394cbc1a5245abd59cb",
+    "byte_identical": false,
+    "public_sha256_before_20261024": "d3fd8d66c05e2f51aba4b4bdc1daa777107f6833d76966262f73b759fa3b2f10",
+    "public_edit_20261024": "Review-status update; revised theorem also clarifies conservative loss bound."
   },
   {
     "path": "PROOF_DRAFT.md",
     "source_sha256": "9fc3e078f32b3a85843b974ff648022331295f10912b5e5b2518e963b5327f50",
-    "public_sha256": "dadd0d3680f55406175da0d0118882823e4df28ea8927c8b859701af0ab258ac",
-    "byte_identical": false
+    "public_sha256": "c970ab5e98b898f581dfa719f6292f8d35584e1966baeb2a7fdfbb7d96bf346b",
+    "byte_identical": false,
+    "public_sha256_before_20261024": "dadd0d3680f55406175da0d0118882823e4df28ea8927c8b859701af0ab258ac",
+    "public_edit_20261024": "Review-status update; revised theorem also clarifies conservative loss bound."
   },
   {
     "path": "TRANSFER_THEOREM_REVISED.md",
     "source_sha256": "781be0ff796fbb6f27a16160cad420d6eb28d126e9523baf5b49d3e458554180",
-    "public_sha256": "99133d3557da5319e5f9d987dbcb6083a4f20befac07de044569f2367c2eb8fa",
-    "byte_identical": false
+    "public_sha256": "329e0a597c24f20dd8e990fbfcfa00708d06fbc92797cfd8202abef8210bb192",
+    "byte_identical": false,
+    "public_sha256_before_20261024": "99133d3557da5319e5f9d987dbcb6083a4f20befac07de044569f2367c2eb8fa",
+    "public_edit_20261024": "Review-status update; revised theorem also clarifies conservative loss bound."
   },
   {
     "path": "ZHIHU_ARTICLE.md",
     "source_sha256": "59c8ea87454480cc48ff712f1294e5d3337f69b2b8e61cc12376c37e91420f97",
-    "public_sha256": "59c8ea87454480cc48ff712f1294e5d3337f69b2b8e61cc12376c37e91420f97",
-    "byte_identical": true
+    "public_sha256": "349dc463e93d5966d88bcc0dd34720a43f5ecd6657d977c9d130f09ca64fa02e",
+    "byte_identical": false,
+    "public_sha256_before_20261024": "59c8ea87454480cc48ff712f1294e5d3337f69b2b8e61cc12376c37e91420f97",
+    "public_edit_20261024": "Review-status update; revised theorem also clarifies conservative loss bound."
   },
   {
     "path": "RESULTS_20261016.txt",

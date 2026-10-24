@@ -1,0 +1,62 @@
+INDEPENDENT_CHANNEL_AUDIT Julia=1.12.7 seed=2026101607 BLAS_threads=1
+Convention: c(v) is antilinear; system bits precede environment bits; no external SDP rerun.
+EXACT_COMPLEX_RATIONAL: Phi(H)=HM; Phi(H^2)=HM^2+N1+N2; all signed blocks exact: PASS
+EXACT_KERNEL: ker HM=Gamma(M^-1) ker H0; positive unequal channel weights preserve kernel: PASS
+EXACT_COMPLEX_RATIONAL_HM_2PARTICLE_DIAGONAL=Complex{Rational{BigInt}}[1824768//1394947801 + 0//1*im, 1593//7225 + 0//1*im, 1869779142//34873695025 + 0//1*im]
+complex_projector,d=2,beta=1,C=2,delta=0.002,relN1=0.0023984,relN2=8e-07,eta=0.004004,residual=1.014e-16,minSlack1=0.000e+00,minSlack2=0.000e+00
+complex_projector,d=2,beta=1,C=2,delta=0.37,relN1=0.38924,relN2=0.02738,eta=0.8769,residual=5.898e-17,minSlack1=0.000e+00,minSlack2=0.000e+00
+complex_projector,d=2,beta=1,C=2,delta=0.97,relN1=0.78764,relN2=0.18818,eta=2.8809,residual=1.735e-18,minSlack1=0.000e+00,minSlack2=0.000e+00
+complex_nonprojector,d=2,beta=2.7,C=5.4,delta=0.002,relN1=0.00647568,relN2=2.16e-06,eta=0.0108108,residual=7.372e-16,minSlack1=0.000e+00,minSlack2=0.000e+00
+complex_nonprojector,d=2,beta=2.7,C=5.4,delta=0.37,relN1=1.050948,relN2=0.073926,eta=2.36763,residual=1.146e-16,minSlack1=0.000e+00,minSlack2=0.000e+00
+complex_nonprojector,d=2,beta=2.7,C=5.4,delta=0.97,relN1=2.126628,relN2=0.508086,eta=7.77843,residual=1.388e-17,minSlack1=0.000e+00,minSlack2=0.000e+00
+complex_projector,d=3,beta=1,C=4,delta=0.002,relN1=0.004794239,relN2=2.4e-06,eta=0.008004,residual=2.960e-15,minSlack1=-4.012e-19,minSlack2=8.890e-23
+complex_projector,d=3,beta=1,C=4,delta=0.37,relN1=0.6861114,relN2=0.08214,eta=1.6169,residual=2.223e-16,minSlack1=0.000e+00,minSlack2=2.150e-18
+complex_projector,d=3,beta=1,C=4,delta=0.97,relN1=0.78764,relN2=0.56454,eta=4.8209,residual=5.594e-17,minSlack1=0.000e+00,minSlack2=-1.735e-18
+complex_nonprojector,d=3,beta=2.7,C=8.5,delta=0.002,relN1=0.008813677,relN2=4.22358e-06,eta=0.0170108,residual=7.742e-15,minSlack1=0.000e+00,minSlack2=-7.876e-22
+complex_nonprojector,d=3,beta=2.7,C=8.5,delta=0.37,relN1=1.381172,relN2=0.1846166,eta=3.51463,residual=6.883e-15,minSlack1=-2.301e-16,minSlack2=-1.891e-17
+complex_nonprojector,d=3,beta=2.7,C=8.5,delta=0.97,relN1=1.983015,relN2=1.131724,eta=10.78543,residual=1.110e-16,minSlack1=-9.683e-17,minSlack2=0.000e+00
+complex_projector,d=4,beta=1,C=6,delta=0.002,relN1=0.007190648,relN2=2.933333e-06,eta=0.012004,residual=1.474e-14,minSlack1=-2.565e-18,minSlack2=-1.067e-22
+complex_projector,d=4,beta=1,C=6,delta=0.37,relN1=1.006864,relN2=0.1003933,eta=2.3569,residual=5.579e-15,minSlack1=0.000e+00,minSlack2=-1.683e-17
+complex_projector,d=4,beta=1,C=6,delta=0.97,relN1=1.023805,relN2=0.6899933,eta=6.7609,residual=2.233e-16,minSlack1=-1.584e-16,minSlack2=-4.769e-17
+complex_nonprojector,d=4,beta=2.7,C=12.36667,delta=0.002,relN1=0.01364568,relN2=6.583222e-06,eta=0.02474413,residual=1.057e-13,minSlack1=-3.203e-18,minSlack2=-3.796e-21
+complex_nonprojector,d=4,beta=2.7,C=12.36667,delta=0.37,relN1=1.893301,relN2=0.1902567,eta=4.945297,residual=3.597e-14,minSlack1=0.000e+00,minSlack2=1.150e-16
+complex_nonprojector,d=4,beta=2.7,C=12.36667,delta=0.97,relN1=1.938699,relN2=1.503623,eta=14.5361,residual=1.887e-15,minSlack1=-9.310e-16,minSlack2=-4.299e-19
+complex_projector,d=5,beta=1,C=8,delta=0.002,relN1=0.009587199,relN2=3.2e-06,eta=0.016004,residual=2.964e-14,minSlack1=-1.946e-18,minSlack2=8.175e-22
+complex_projector,d=5,beta=1,C=8,delta=0.37,relN1=1.332843,relN2=0.10952,eta=3.0969,residual=2.992e-14,minSlack1=-1.273e-15,minSlack2=-4.864e-17
+complex_projector,d=5,beta=1,C=8,delta=0.97,relN1=1.401706,relN2=0.75272,eta=8.7009,residual=2.498e-15,minSlack1=3.999e-16,minSlack2=0.000e+00
+complex_nonprojector,d=5,beta=2.7,C=16.77,delta=0.002,relN1=0.01624319,relN2=5.282075e-06,eta=0.0335508,residual=3.023e-13,minSlack1=-1.060e-18,minSlack2=-1.232e-20
+complex_nonprojector,d=5,beta=2.7,C=16.77,delta=0.37,relN1=2.282003,relN2=0.1674336,eta=6.57453,residual=4.152e-14,minSlack1=-4.647e-16,minSlack2=1.042e-16
+complex_nonprojector,d=5,beta=2.7,C=16.77,delta=0.97,relN1=2.485015,relN2=1.433815,eta=18.80733,residual=5.884e-15,minSlack1=4.699e-16,minSlack2=-9.762e-17
+complex_projector,d=6,beta=1,C=10,delta=0.002,relN1=0.01198381,relN2=3.36e-06,eta=0.020004,residual=1.817e-13,minSlack1=-1.889e-17,minSlack2=-9.791e-22
+complex_projector,d=6,beta=1,C=10,delta=0.37,relN1=1.660818,relN2=0.114996,eta=3.8369,residual=8.421e-14,minSlack1=-8.573e-16,minSlack2=-4.921e-17
+complex_projector,d=6,beta=1,C=10,delta=0.97,relN1=1.782906,relN2=0.790356,eta=10.6409,residual=9.548e-15,minSlack1=-1.550e-15,minSlack2=4.054e-18
+complex_nonprojector,d=6,beta=2.7,C=21.48,delta=0.002,relN1=0.02072143,relN2=5.831067e-06,eta=0.0429708,residual=8.533e-13,minSlack1=-3.459e-17,minSlack2=-2.364e-20
+complex_nonprojector,d=6,beta=2.7,C=21.48,delta=0.37,relN1=2.908905,relN2=0.2072462,eta=8.31723,residual=3.155e-13,minSlack1=1.932e-15,minSlack2=-2.832e-16
+complex_nonprojector,d=6,beta=2.7,C=21.48,delta=0.97,relN1=3.273775,relN2=1.582222,eta=23.37603,residual=1.044e-14,minSlack1=-7.540e-15,minSlack2=-4.631e-16
+slater_rank2_projector,d=4,beta=1,C=3.979899,delta=0.003,relN1=0.004710937,relN2=4.62306e-06,eta=0.0119487,residual=2.834e-15,minSlack1=-1.658e-18,minSlack2=-1.092e-21
+slater_rank2_projector,d=4,beta=1,C=3.979899,delta=0.6,relN1=0.6179595,relN2=0.1398618,eta=2.747939,residual=1.804e-16,minSlack1=-1.790e-16,minSlack2=-1.168e-17
+slater_rank2_nonprojector,d=4,beta=2.7,C=6.19196,delta=0.003,relN1=0.00970748,relN2=8.285032e-06,eta=0.01860018,residual=4.172e-15,minSlack1=-5.761e-18,minSlack2=-1.371e-20
+slater_rank2_nonprojector,d=4,beta=2.7,C=6.19196,delta=0.6,relN1=1.395125,relN2=0.276523,eta=4.687176,residual=1.610e-15,minSlack1=-2.066e-16,minSlack2=-8.703e-17
+slater_rank2_projector,d=5,beta=1,C=3.979899,delta=0.003,relN1=0.004678845,relN2=3.68623e-06,eta=0.0119487,residual=2.061e-15,minSlack1=-2.231e-18,minSlack2=-2.268e-21
+slater_rank2_projector,d=5,beta=1,C=3.979899,delta=0.6,relN1=0.6250668,relN2=0.152448,eta=2.747939,residual=3.053e-16,minSlack1=-2.260e-16,minSlack2=-4.240e-17
+slater_rank2_nonprojector,d=5,beta=2.7,C=6.19196,delta=0.003,relN1=0.01024906,relN2=8.968387e-06,eta=0.01860018,residual=1.051e-14,minSlack1=-1.007e-17,minSlack2=-7.112e-21
+slater_rank2_nonprojector,d=5,beta=2.7,C=6.19196,delta=0.6,relN1=1.359085,relN2=0.3584396,eta=4.687176,residual=2.331e-15,minSlack1=-6.221e-16,minSlack2=-1.982e-16
+slater_rank2_projector,d=6,beta=1,C=3.979899,delta=0.003,relN1=0.004452802,relN2=4.190029e-06,eta=0.0119487,residual=2.791e-15,minSlack1=-5.348e-18,minSlack2=-3.034e-21
+slater_rank2_projector,d=6,beta=1,C=3.979899,delta=0.6,relN1=0.5617071,relN2=0.1538842,eta=2.747939,residual=1.374e-15,minSlack1=-4.599e-16,minSlack2=-7.179e-17
+slater_rank2_nonprojector,d=6,beta=2.7,C=6.19196,delta=0.003,relN1=0.009699408,relN2=7.706349e-06,eta=0.01860018,residual=4.982e-15,minSlack1=-9.169e-18,minSlack2=-2.016e-20
+slater_rank2_nonprojector,d=6,beta=2.7,C=6.19196,delta=0.6,relN1=1.317422,relN2=0.3990997,eta=4.687176,residual=1.499e-15,minSlack1=-6.521e-16,minSlack2=-2.042e-16
+nonorthogonal_pair_frame,d=4,beta=0.567878,C=4.341191,delta=0.005,relN1=0.004325424,relN2=5.134089e-06,eta=0.02172015,residual=1.295e-16,minSlack1=-1.519e-18,minSlack2=-2.002e-21
+nonorthogonal_pair_frame,d=4,beta=0.593983,C=4.212903,delta=0.7,relN1=0.3655895,relN2=0.1221322,eta=3.240084,residual=2.964e-17,minSlack1=-5.584e-17,minSlack2=4.245e-19
+nonorthogonal_rank2_frame,d=4,beta=2.596292,C=15.6523,delta=0.005,relN1=0.01573855,relN2=2.161578e-05,eta=0.07832641,residual=6.315e-15,minSlack1=-3.114e-18,minSlack2=2.379e-21
+nonorthogonal_rank2_frame,d=4,beta=2.43461,C=15.70311,delta=0.7,relN1=1.299918,relN2=0.5114503,eta=12.18513,residual=8.049e-16,minSlack1=-1.077e-16,minSlack2=3.214e-17
+nonorthogonal_pair_frame,d=6,beta=0.5524562,C=3.637197,delta=0.005,relN1=0.004230692,relN2=6.466025e-06,eta=0.0181998,residual=1.184e-15,minSlack1=-2.758e-18,minSlack2=-1.772e-21
+nonorthogonal_pair_frame,d=6,beta=0.5554495,C=3.860683,delta=0.7,relN1=0.3441536,relN2=0.1529182,eta=2.974648,residual=6.245e-17,minSlack1=-1.103e-16,minSlack2=-1.568e-17
+nonorthogonal_rank2_frame,d=6,beta=2.089527,C=13.26599,delta=0.005,relN1=0.0157386,relN2=2.366087e-05,eta=0.06638219,residual=7.411e-15,minSlack1=-2.661e-17,minSlack2=-2.887e-20
+nonorthogonal_rank2_frame,d=6,beta=2.484078,C=13.72604,delta=0.7,relN1=1.265719,relN2=0.4575841,eta=10.82543,residual=1.193e-15,minSlack1=-1.881e-15,minSlack2=-2.669e-16
+near_singular,d=4,beta=1,C=6,delta=1,relN1=NaN,relN2=NaN,eta=7,residual=9.645e-16,minSlack1=2.766e-16,minSlack2=-1.054e-17
+THRESHOLD_DIAGNOSTIC: true kernel dimension=5; threshold(1e-9) reports=8; min(M)=1e-6; this is a threshold failure, not a kernel theorem counterexample
+COUNTEREXAMPLE_OMIT_BETA: beta=3, N2/(delta^2 HM)=3//1; exact violation=124416//390625
+COUNTEREXAMPLE_DROP_INVERTIBILITY: d=2, M=diag(0,1); dim ker H0=3; dim ker HM=4
+Test Summary:                         | Pass  Total   Time
+Independent doubled-CAR channel audit |  469    469  41.4s
+SUMMARY=Dict("max_identity_residual" => 8.53279137613943e-13)

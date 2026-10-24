@@ -1,26 +1,19 @@
-# Review status — 2026-10-16
+# Review status — 2026-10-24
 
-**Human verification is incomplete. Independent peer review has not been completed.**
+On 24 October 2026, Yuchen Liu reported that he had personally examined the main conclusions and calculations and found no obvious errors. This is his personal scientific judgment. It is not a claim of external peer review or exhaustive line-by-line formal verification.
 
-The research and this public edition were prepared with AI assistance. Separate agent passes and independently written code within the same project are internal cross-checks, not external human review. No reviewer endorsement is claimed.
+The author takes responsibility for the scientific content and its verification. OpenAI's Codex was used extensively for the analytical derivations, verification programs, computational cross-checks, and writing. Internal analytic passes and separately written implementations are reproducibility checks within this project.
 
-| Evidence | Current status |
+The follow-up [recheck](RECHECK_20261024.md) found no issue requiring a change to the main inequalities or displayed numerical lower bounds. It records the distinction between the actual channel loss and a conservative loss bound, a fresh run of all six Julia suites (1830 passing checks), and a successful rerun of the hash-pinned upstream exact verifier.
+
+| Evidence | Status |
 |---|---|
-| External reference theorem | Versions, normalization and geometric scope inspected; reliance on the cited theorem remains |
-| Upstream exact certificate | Author's verifier rerun successfully; not an independently rewritten verifier |
-| New transfer proof and extensions | Written analytic arguments; awaiting line-by-line human review |
-| Finite-Fock and exact-arithmetic checks | Passed on the recorded examples; do not establish infinite-dimensional theorems |
-| Novelty | Not established by the literature search |
-| Finite torus / experimental Coulomb interactions / topological stability | Not proved |
+| Author's examination | Main conclusions and calculations personally checked; no obvious error found in the author's judgment |
+| Transfer proof and physical comparison | Analytic derivations available; follow-up internal recheck recorded |
+| Computational checks | Six Julia suites passed again; exact rational values independently recomputed with Python |
+| External reference | Version, normalization, and plane/sphere scope checked; upstream exact verifier rerun successfully |
+| External peer review / formal verification | Not claimed |
 
-## Human audit priorities
+The mathematical results are statements for the explicit parent interactions and geometric hypotheses in the technical documents. A positive computed lower bound certifies a gap above the full kernel under those hypotheses. Material-specific interactions, finite-torus reference gaps, and topological stability require their own inputs.
 
-- [ ] Check fermionic signs, conjugations, vacuum dilation, and all environment sectors.
-- [ ] Verify the operator-valued Schur bound and the nuclear-overlap improvement.
-- [ ] Check all-Q pair normalization and infinite-dimensional domains/closures.
-- [ ] Recompute physical contact coefficients, weighted-frame comparison, and common kernels.
-- [ ] Audit the nodal multiplier and nonstandard-coordinate examples.
-- [ ] Independently verify external theorem scope and exact certificates.
-- [ ] Assess literature priority and the scope of any eventual publication.
-
-Historical documents may use words such as “proved,” “rigorous,” or “certified” to describe what an argument purports to establish. Throughout this release, **these remain draft proof claims unless explicitly attributed to an external source**. No box above has been checked by a human reviewer as part of this release.
+The initial 16 October release correctly stated that human checking was incomplete at that time. Historical snapshots retain that dated status. This page records the subsequent author examination without assigning a checklist of specific actions to the author that he has not separately described. Corrections and counterexamples are welcome.

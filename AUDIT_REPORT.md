@@ -1,4 +1,4 @@
-> **AI-assisted research draft — human verification and independent peer review are incomplete.** New proof claims remain provisional. See [HUMAN_REVIEW.md](HUMAN_REVIEW.md).
+> **Review status updated 2026-10-24.** The author reports personally checking the main conclusions and calculations. See [HUMAN_REVIEW.md](HUMAN_REVIEW.md) and the [follow-up audit](RECHECK_20261024.md).
 
 # Vortexable 1/3-Laughlin 母哈密顿量：审查报告
 

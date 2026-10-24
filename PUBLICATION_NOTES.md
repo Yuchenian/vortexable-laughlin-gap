@@ -1,6 +1,6 @@
 # Public edition
 
-This repository assembles the 2026-10-16 transfer-bound research record. Human review is incomplete.
+This repository assembles the 2026-10-16 transfer-bound research record, with review status updated on 2026-10-24. See [HUMAN_REVIEW.md](HUMAN_REVIEW.md).
 
 - Current technical documents keep their original filenames so cross-references remain usable.
 - Review banners were added; historical snapshots are labelled as historical.
@@ -13,3 +13,5 @@ This repository assembles the 2026-10-16 transfer-bound research record. Human r
 - The upstream certificate/verifier can be fetched with the pinned hashes in scripts/fetch_reference.py. The retained verification log is a rerun of the author's verifier.
 
 The MIT license applies to original project material. It does not relicense referenced third-party work.
+
+The 2026-10-24 update changes current review notices and citation metadata, adds a fresh audit record and its outputs, and clarifies the conservative loss parameter in the revised theorem. The six research implementations are unchanged. The 2026-10-16 snapshots and publication-check record retain their historical wording. A manuscript being edited locally by the author is not part of this status update.

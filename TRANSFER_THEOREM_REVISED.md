@@ -1,4 +1,4 @@
-> **AI-assisted research draft — human verification and independent peer review are incomplete.** New proof claims remain provisional. See [HUMAN_REVIEW.md](HUMAN_REVIEW.md).
+> **Review status updated 2026-10-24.** The author reports personally checking the main conclusions and calculations. See [HUMAN_REVIEW.md](HUMAN_REVIEW.md) and the [follow-up audit](RECHECK_20261024.md).
 
 # A revised loss-channel transfer theorem
 
@@ -278,7 +278,7 @@ Define `Q_w=integral w(x)|p_x><p_x|dnu`. If directly verifiable two-body inequal
 
 `kappa Q<=Q_w<=KQ`, `kappa>0`, `K<infinity`
 
-hold, set `M=sqrt(g_-)G^(-1/2)` and `delta=1-g_-/g_+`. Then
+hold, set `M=sqrt(g_-)G^(-1/2)` and use the conservative loss bound `delta=1-g_-/g_+`. The actual loss `||I-M²||` is at most this value; equality need not hold when the Gram bounds are not sharp. Substituting this upper bound into the decreasing transfer coefficient gives
 
 `(kappa/g_-²)H_M<=H_f<=(K/g_-²)H_M`,
 `gap(H_f)>=(kappa/g_-²)[gamma0-Cdelta-beta delta²]`.             (7)

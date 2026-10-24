@@ -1,6 +1,6 @@
 # Publication checks — 2026-10-16
 
-**Human verification remains incomplete.** These are execution and packaging checks.
+**Historical release record.** Human verification was incomplete on 2026-10-16. For the current status, see [HUMAN_REVIEW.md](HUMAN_REVIEW.md); for the new execution results, see [RECHECK_20261024.md](RECHECK_20261024.md).
 
 The six public research scripts were rerun from the assembled public directory using Julia 1.12.7 on Windows:
 

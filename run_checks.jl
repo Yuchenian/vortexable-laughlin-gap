@@ -14,7 +14,7 @@ open(joinpath(out,"environment.txt"),"w") do io
         println(io,bytes2hex(sha256(read(joinpath(root,name)))),"  ",name)
     end
 end
-println("AI-assisted draft; human verification incomplete.")
+println("Research checks; review status is recorded in HUMAN_REVIEW.md.")
 println("Finite checks do not establish a thermodynamic theorem.")
 for script in scripts
     logfile=joinpath(out,script*".log")

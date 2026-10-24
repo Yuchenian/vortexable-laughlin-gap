@@ -1,0 +1,12 @@
+Plane nuclear-overlap integral (floating diagnostic): 12.310898278977326
+Rigorous analytic tail formula beyond L=60: 2.39555e-11 (floating evaluation)
+Exact usable constant C=14; analytic upper 8sqrt(3)=13.856406460551018
+Rank-two same-LLL family p=(|0 wedge 1>+|2 wedge 3>)/sqrt(2):
+  beta=(7+2sqrt(11))/16 = 0.852078098794425
+  explicit rational Schur bound (deliberately loose) C=336//1
+  Reference full-Fock gap for this new pair operator: NOT ESTABLISHED.
+Disjoint four-mode cells, exact rational local certificate:
+  H(H-I/2)(H-I)=0; spectrum multiplicities 0:10, 1/2:4, 1:2.
+  Any number of cells: gamma0=1/2, beta=1, C=2; transfer gap >=1/2-2delta-delta^2.
+Test Summary:                                  | Pass  Total  Time
+Revised Schur and finite-Slater analytic audit | 1013   1013  2.3s
