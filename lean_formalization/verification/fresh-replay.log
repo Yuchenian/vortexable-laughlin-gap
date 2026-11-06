@@ -1,0 +1,6 @@
+START_UTC=2026-11-06T13:30:34.2685522Z
+RUNNER_PID=28828
+MODE=official leanchecker --fresh VortexGap; all imported and project declarations
+replaying VortexGap with --fresh
+END_UTC=2026-11-06T14:41:09.9280801Z
+EXIT_CODE=0

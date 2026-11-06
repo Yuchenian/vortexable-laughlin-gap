@@ -1,0 +1,12 @@
+START_UTC=2026-11-06T10:50:12.6216362Z
+RUNNER_PID=28828
+THREADS=1
+SCOPE=clean project VortexGap artifacts; pinned dependency artifacts retained
+STAGE=clean-project-artifacts; UTC=2026-11-06T10:50:13.0152903Z
+STAGE=lake-clean-build; UTC=2026-11-06T10:50:13.9873504Z
+STAGE=full-type-axiom-audit; UTC=2026-11-06T13:29:23.2458403Z
+STAGE=fresh-full-import-closure-kernel-replay; UTC=2026-11-06T13:30:34.2532473Z
+STAGE=post-replay-inventory-and-hashes; UTC=2026-11-06T14:41:10.1894884Z
+STAGE=complete; UTC=2026-11-06T14:41:13.3239735Z
+END_UTC=2026-11-06T14:41:13.3345376Z
+EXIT_CODE=0

@@ -1,5 +1,7 @@
 # Vortexable Laughlin gap: transfer bounds and examples
 
+[Lean formalization and reproduction instructions](lean_formalization/README.md) | [Handwritten verification notes (PDF)](docs/verification/hand_written_note.pdf)
+
 > **Review update — 2026-10-24.** Yuchen Liu reports personally checking the main conclusions and calculations and finding no obvious errors, in his own judgment. A further internal recheck and all 1830 Julia checks passed. See [review status](HUMAN_REVIEW.md) and the [recheck record](RECHECK_20261024.md).
 >
 > **核验状态更新**：作者已亲自检查主要结论和计算结果，个人判断未发现明显错误；本项目又完成了一轮解析与计算复核。这不代表外部同行评审。
